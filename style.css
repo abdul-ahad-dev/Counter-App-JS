@@ -8,8 +8,7 @@ body {
     height: 100vh;
     max-height: 100%;
     width: 100%;
-    overflow: hidden;
-    background-color: #3A2E39;
+    background-color: #1B1A17;
     user-select: none;
 }
 
@@ -18,7 +17,7 @@ body {
     margin-top: 25px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 5vw;
+    font-size: 4em;
     letter-spacing: 1px;
     text-shadow: 3px -5px 14px rgba(0,0,0,0.5);
 }
@@ -27,23 +26,22 @@ body {
 #title:before {
     content: " ";
     display: block;
-    border-bottom: 3px solid #101010;
+    border-bottom: 2px solid #E8FFFF;
 }
 
 #count{
     display: flex;
     justify-content: center;
     font-size: 5rem;
-    background-color: #1E555C;
-    color: #eee;
-    width: 3em;
-    margin: 4rem auto;
-    margin-top: 6rem;
-    padding: 1rem;
-    overflow: hidden;
+    background-color: #0D7377;
+    color: #EADEDE;
+    width: max-content;
+    margin: 6rem auto 4rem auto;
+    padding: 2rem 4rem;
     border-radius: 1rem;
     text-shadow: 1px 1px 2px rgba(0,0,0, .6);
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, 
+                rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .btns {
@@ -56,11 +54,12 @@ body {
 .btn {
     background-color: #eee;
     padding: 1rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
     text-align: center;
     width: 10em;
     border-radius: 1rem;
-    color: #1E555C;
+    color: #1B1A17;
+    font-weight: 600;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px,
                 rgba(0, 0, 0, 0.09) 0px 4px 2px,
                 rgba(0, 0, 0, 0.09) 0px 8px 4px, 
@@ -70,24 +69,21 @@ body {
 }
 
 .btn:active {
-    color: white;
     box-shadow: 0 0.2rem #242222e0;
     transform: translateY(0.2rem);
 }
 
 .btn:hover:not(:disabled) {
-    background: #1E555C;
-    color: white;
+    background: #FBCB0A;
 }
 #reset:hover:not(:disabled) {
-    background: #C1121F;
-    color: white;
+    background: #fd1c08;
 }
 
 #footer{
-    color: #FDF0D5;
+    color: #fff;
     padding: 1rem;
-    font-size: 0.9rem;
+    font-size: 1rem;
     text-align: center;
     margin-top: 8vw;
 }
